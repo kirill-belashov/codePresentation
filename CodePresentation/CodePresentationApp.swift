@@ -11,7 +11,7 @@ import SwiftUI
 struct CodePresentationApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainScreenBuilder.build()
         }
     }
 }
